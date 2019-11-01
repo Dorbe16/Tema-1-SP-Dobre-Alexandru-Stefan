@@ -1,4 +1,5 @@
 %Semnal sinusoidal redresat dubla alternanta cu rezolutie temporara 2ms
+figure(1)
 A = 1.5; %amplitudinea
 T = 4; %perioada
 F = 1 / T; %frecventa
@@ -7,6 +8,7 @@ s = A*abs(sin(2*pi*F*t));   % semnal sinusoidal cu amplitudinea A, perioada t si
 plot(t,s,'.-'),xlabel('Timp [s]'),ylabel('Amplitudine'),title('Semnal sinusoidal'),grid; %graficul functiei s=f(t)
 
 %Semnal sinusoidal redresat dubla alternanta cu rezolutie temporara 20ms
+figure(2)
 A = 1.5; 
 T = 4;
 F = 1 / T;
@@ -15,6 +17,7 @@ s = A*abs(sin(2*pi*F*t));
 plot(t,s,'.-'),xlabel('Timp [s]'),ylabel('Amplitudine'),title('Semnal sinusoidal'),grid;
 
 %Semnal sinusoidal redresat dubla alternanta cu rezolutie temporara 200ms
+figure(3)
 A = 1.5; 
 T = 4;
 F = 1 / T;
